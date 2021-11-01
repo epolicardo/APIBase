@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "mssql2": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/epolicardo/databases/Gastos",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:Conexion"
+    },
+    "mssql1": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/epolicardo/databases/gastos_hangfire",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:Conexion_Hangfire"
+    },
+    "apis1": {
+      "apiEndpoint": "https://epolicardoapi.azure-api.net/",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/epolicardoAPI/apis/GastosAPI",
+      "type": "apis.azure"
+    },
+    "identityapp1": {
+      "ignored": "true",
+      "suggestion": "true",
+      "type": "identityapp",
+      "connectionId": ""
+    }
+  }
+}
