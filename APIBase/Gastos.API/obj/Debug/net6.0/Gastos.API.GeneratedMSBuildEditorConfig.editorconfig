@@ -8,13 +8,13 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Gastos.API
 build_property.RootNamespace = Gastos.API
-build_property.ProjectDir = c:\repos\NET\Gastos\Gastos.API\
+build_property.ProjectDir = C:\repos\NET\Github\APIBase\APIBase\Gastos.API\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\repos\NET\Gastos\Gastos.API
+build_property.MSBuildProjectDirectory = C:\repos\NET\Github\APIBase\APIBase\Gastos.API
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/repos/NET/Gastos/Gastos.API/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/repos/NET/Github/APIBase/APIBase/Gastos.API/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

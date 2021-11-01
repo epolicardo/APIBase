@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "S3zREfvH+inOEdEfSlTSvQ4vlP5LYXW7MZVSNbGYIfZU7evSEiVlUwM8AQqO8UjcD3Wk5sV2xOi/Nf7zFapKng==",
+  "dgSpecHash": "fIi7id2hPHHvCQ26OH8JnA4zQrxPQhx7zEkoIFKjLjAPZf64Smkpg749MYY45ZEcGhJVel4ORLoWboHwkf+33w==",
   "success": true,
-  "projectFilePath": "C:\\repos\\NET\\apibase\\APIBase\\Gastos.API\\Gastos.API.csproj",
+  "projectFilePath": "C:\\repos\\NET\\Github\\APIBase\\APIBase\\Gastos.API\\Gastos.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\003566613\\.nuget\\packages\\hangfire\\1.7.18\\hangfire.1.7.18.nupkg.sha512",
     "C:\\Users\\003566613\\.nuget\\packages\\hangfire.aspnetcore\\1.7.18\\hangfire.aspnetcore.1.7.18.nupkg.sha512",
@@ -219,8 +219,7 @@
     "C:\\Users\\003566613\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\003566613\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\003566613\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\003566613\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\003566613\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.11\\microsoft.netcore.app.host.win-x64.5.0.11.nupkg.sha512"
+    "C:\\Users\\003566613\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }
