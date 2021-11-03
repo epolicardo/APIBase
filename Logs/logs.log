@@ -1702,3 +1702,15 @@ System.IO.IOException: Failed to bind to address https://127.0.0.1:44365: addres
    at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
    at Gastos.API.Program.Main(String[] args) in C:\repos\NET\Github\APIBase\APIBase\Gastos.API\Program.cs:line 28
 2021-11-03 09:52:25.364 -03:00 [INF] Gastos.API started
+2021-11-03 09:56:33.605 -03:00 [INF] Gastos.API started
+2021-11-03 09:56:56.630 -03:00 [ERR] error al obtener listas
+System.InvalidOperationException: Cannot create a DbSet for 'Cliente' because this type is not included in the model for the context.
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Controllers.GenericRepository`1.GetAll() in C:\repos\NET\Github\APIBase\Controllers\V1\GenericRepository.cs:line 61
+2021-11-03 09:58:32.489 -03:00 [INF] Credenciales ingresadas: {"Username":"epolicardo","Password":"Em1Li4N*","$type":"LoginCredentials"}
+2021-11-03 09:58:38.524 -03:00 [INF] Credenciales ingresadas: {"Username":"epolicardo","Password":"Em1Li4No","$type":"LoginCredentials"}

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "juZSAwDp93NK8u+OWIVDmPe7QG9RQC1UrHJ0I3L17rRnySQp5L7HQiMMXsGdHkeXoCTHUaJYYFaEuq9mzpJVbg==",
+  "dgSpecHash": "pcDPhbPWKQrQ2mZwiIQbZ+Z+aIuN9ALsliT2TieCy27nRVcJs4S8jbgQnSNc1V0aMZQI/Gka3SKZuny8U0SvgA==",
   "success": true,
-  "projectFilePath": "C:\\repos\\NET\\Github\\APIBase\\Gastos.API\\Gastos.API.csproj",
+  "projectFilePath": "C:\\repos\\NET\\Github\\APIBase\\Gastos.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\003566613\\.nuget\\packages\\hangfire\\1.7.18\\hangfire.1.7.18.nupkg.sha512",
     "C:\\Users\\003566613\\.nuget\\packages\\hangfire.aspnetcore\\1.7.18\\hangfire.aspnetcore.1.7.18.nupkg.sha512",
