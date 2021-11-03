@@ -1701,3 +1701,4 @@ System.IO.IOException: Failed to bind to address https://127.0.0.1:44365: addres
    at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
    at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
    at Gastos.API.Program.Main(String[] args) in C:\repos\NET\Github\APIBase\APIBase\Gastos.API\Program.cs:line 28
+2021-11-03 09:52:25.364 -03:00 [INF] Gastos.API started
