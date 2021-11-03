@@ -57,7 +57,7 @@ namespace Controllers
 
         [HttpGet]
         [Route("ImportarProductos")]
-        public async Task<bool> ImportarProductos()
+        public Task<bool> ImportarProductos()
         {
             var reader = new StreamReader(System.IO.File.OpenRead(@"c:\repos\gastos\csv\productos.csv"));
             List<string> listA = new List<string>();
@@ -106,7 +106,7 @@ namespace Controllers
 
             }
             dataContext.SaveChanges();
-            return status;
+            return Task.FromResult(status);
         }
     }
 }

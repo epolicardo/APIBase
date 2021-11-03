@@ -43,13 +43,13 @@ namespace Controllers
             return true;
         }
 
-        public async Task<bool> CreateAsync(T entity)
+        public Task<bool> CreateAsync(T entity)
         {
 
-            var a = context.Set<T>().AddAsync(entity).IsCompletedSuccessfully;
+            var a =  context.Set<T>().AddAsync(entity).IsCompletedSuccessfully;
             //await context.SaveChangesAsync();
 
-            return a;
+            return Task.FromResult(a);
 
         }
 
