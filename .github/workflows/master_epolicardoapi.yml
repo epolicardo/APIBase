@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'epolicardoapi'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D4E5EBAAD08842198B5118F24792A733 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_374C3CEFF9D54A75BFA34C0F4C6F4FFC }}
           package: .
