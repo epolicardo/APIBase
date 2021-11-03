@@ -5,7 +5,7 @@ namespace Controllers
 {
     public class GenericController : ControllerBase
     {
-        private readonly IConfiguration configuration;
+        private readonly IConfiguration configuration = new();
 
         public GenericController()
         {
