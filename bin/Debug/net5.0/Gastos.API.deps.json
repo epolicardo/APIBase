@@ -34,7 +34,7 @@
       "Gastos.API/1.0.0": {
         "dependencies": {
           "Hangfire": "1.7.18",
-          "Microsoft.AspNetCore.Authentication.JwtBearer": "5.0.0",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "5.0.9",
           "Microsoft.AspNetCore.Authentication.OpenIdConnect": "5.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.0",
           "Microsoft.AspNetCore.Mvc.Versioning": "5.0.0",
@@ -433,14 +433,14 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Authentication.JwtBearer/5.0.0": {
+      "Microsoft.AspNetCore.Authentication.JwtBearer/5.0.9": {
         "dependencies": {
           "Microsoft.IdentityModel.Protocols.OpenIdConnect": "6.7.1"
         },
         "runtime": {
           "lib/net5.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
-            "assemblyVersion": "5.0.0.0",
-            "fileVersion": "5.0.20.52605"
+            "assemblyVersion": "5.0.9.0",
+            "fileVersion": "5.0.921.36503"
           }
         },
         "compile": {
@@ -4654,12 +4654,12 @@
       "path": "humanizer.core/2.8.26",
       "hashPath": "humanizer.core.2.8.26.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Authentication.JwtBearer/5.0.0": {
+    "Microsoft.AspNetCore.Authentication.JwtBearer/5.0.9": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-26WlfJsOB4QP3VsEVu5GGDSGm5wu6ikQqRUOaZ3BUmyGcMWsD28xFxPxFw4OszYgKpj54QYlyec19KcrEGkqDw==",
-      "path": "microsoft.aspnetcore.authentication.jwtbearer/5.0.0",
-      "hashPath": "microsoft.aspnetcore.authentication.jwtbearer.5.0.0.nupkg.sha512"
+      "sha512": "sha512-zG4G0waQzkdG0TazXbyuvIxpmWgQllnIjuKNcXNIh5mwcMVG1UPqT09L5EkAGmW2TtktJNWvojr77OpiOpK9JA==",
+      "path": "microsoft.aspnetcore.authentication.jwtbearer/5.0.9",
+      "hashPath": "microsoft.aspnetcore.authentication.jwtbearer.5.0.9.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication.OpenIdConnect/5.0.0": {
       "type": "package",

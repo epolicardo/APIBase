@@ -799,3 +799,4 @@ C:\repos\NET\Github\APIBase\obj\Debug\net5.0\ref\Gastos.API.dll
 C:\repos\NET\Github\APIBase\obj\Debug\net5.0\Gastos.API.pdb
 C:\repos\NET\Github\APIBase\obj\Debug\net5.0\Gastos.API.genruntimeconfig.cache
 C:\repos\NET\Github\APIBase\obj\Debug\net5.0\Gastos.API.csproj.CopyComplete
+C:\repos\NET\Github\APIBase\obj\Debug\net5.0\staticwebassets\Gastos.API.StaticWebAssets.xml

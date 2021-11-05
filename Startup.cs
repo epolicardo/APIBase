@@ -17,6 +17,7 @@ using Microsoft.IdentityModel.Tokens;
 using Swashbuckle.AspNetCore.SwaggerGen;
 using System;
 using System.Text;
+using System.Data.SqlClient;
 
 namespace Gastos.API
 {
@@ -34,7 +35,13 @@ namespace Gastos.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddHangfire(x => x.UseSqlServerStorage(Configuration.GetConnectionString("Conexion_Hangfire")));
+
+            var builder_hangfire = new SqlConnectionStringBuilder(
+             Configuration.GetConnectionString("Conexion_Hangfire"));
+            builder_hangfire.Password = Configuration["MyAzurePassword"];
+            var _connection_hangfire = builder_hangfire.ConnectionString;
+
+            services.AddHangfire(x => x.UseSqlServerStorage(_connection_hangfire));
             services.AddHangfireServer();
             services.AddCors();
             services.AddControllers();
@@ -89,11 +96,14 @@ namespace Gastos.API
 
 
 
-
+            var builder = new SqlConnectionStringBuilder(
+                Configuration.GetConnectionString("Conexion"));
+            builder.Password = Configuration["MyAzurePassword"];
+            var _connection = builder.ConnectionString;
 
 
             services.AddDbContext<DataContext>(
-              options => options.UseSqlServer(Configuration.GetConnectionString("Conexion")));
+              options => options.UseSqlServer(_connection));
 
             services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             services.AddScoped<IDemoService, DemoService>();

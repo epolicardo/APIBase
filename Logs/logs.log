@@ -1714,3 +1714,49 @@ System.InvalidOperationException: Cannot create a DbSet for 'Cliente' because th
    at Controllers.GenericRepository`1.GetAll() in C:\repos\NET\Github\APIBase\Controllers\V1\GenericRepository.cs:line 61
 2021-11-03 09:58:32.489 -03:00 [INF] Credenciales ingresadas: {"Username":"epolicardo","Password":"Em1Li4N*","$type":"LoginCredentials"}
 2021-11-03 09:58:38.524 -03:00 [INF] Credenciales ingresadas: {"Username":"epolicardo","Password":"Em1Li4No","$type":"LoginCredentials"}
+2021-11-05 16:40:44.307 -03:00 [INF] Gastos.API started
+2021-11-05 16:41:18.215 -03:00 [ERR] error al obtener listas
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open server 'epolicardo' requested by the login. Client with IP address '201.216.249.162' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CheckPoolBlockingPeriod(Exception e)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Controllers.GenericRepository`1.GetAll() in C:\repos\NET\Github\APIBase\Controllers\V1\GenericRepository.cs:line 61
+ClientConnectionId:b31a8a6c-24e0-462a-9d60-1bba4d2a2a9d
+Error Number:40615,State:1,Class:14
+2021-11-05 16:49:37.984 -03:00 [INF] Gastos.API started
+2021-11-05 17:23:50.427 -03:00 [INF] Gastos.API started
+2021-11-05 17:23:51.228 -03:00 [FTL] Host terminated unexpectedly
+System.ArgumentNullException: Value cannot be null. (Parameter 'Password')
+   at System.Data.Common.ADP.CheckArgumentNull(Object value, String parameterName)
+   at System.Data.SqlClient.SqlConnectionStringBuilder.SetValue(String keyword, String value)
+   at System.Data.SqlClient.SqlConnectionStringBuilder.set_Password(String value)
+   at Gastos.API.Startup.ConfigureServices(IServiceCollection services) in C:\repos\NET\Github\APIBase\Startup.cs:line 41
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.InvokeCore(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass9_0.<Invoke>g__Startup|0(IServiceCollection serviceCollection)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.Invoke(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass8_0.<Build>b__0(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.UseStartup(Type startupType, HostBuilderContext context, IServiceCollection services, Object instance)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__0(HostBuilderContext context, IServiceCollection services)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at Gastos.API.Program.Main(String[] args) in C:\repos\NET\Github\APIBase\Program.cs:line 28
+2021-11-05 17:24:32.257 -03:00 [INF] Gastos.API started

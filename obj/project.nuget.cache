@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+UpMqif+ssqE/na54iZmfOf2PPhtJqYyoLKiliPBiJFoRTCpNrTN9uZ6Q1VFfNOuafPC6MKQDjLB8yAlPVo80w==",
+  "dgSpecHash": "QTVyXGdYi/NphkOs80je72ibv0N3ZtjfiLG4vBkCFEhMoB/ch683aM2L32+taxKetciO/OH+fInA0+8FtBSr3A==",
   "success": true,
   "projectFilePath": "C:\\repos\\NET\\Github\\APIBase\\Gastos.API.csproj",
   "expectedPackageFiles": [
@@ -219,8 +219,7 @@
     "C:\\Users\\003566613\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\003566613\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\003566613\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\003566613\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\003566613\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.11\\microsoft.netcore.app.host.win-x64.5.0.11.nupkg.sha512"
+    "C:\\Users\\003566613\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }
