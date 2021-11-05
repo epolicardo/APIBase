@@ -1760,3 +1760,4 @@ System.ArgumentNullException: Value cannot be null. (Parameter 'Password')
    at Microsoft.Extensions.Hosting.HostBuilder.Build()
    at Gastos.API.Program.Main(String[] args) in C:\repos\NET\Github\APIBase\Program.cs:line 28
 2021-11-05 17:24:32.257 -03:00 [INF] Gastos.API started
+2021-11-05 18:17:05.176 -03:00 [INF] Gastos.API started
